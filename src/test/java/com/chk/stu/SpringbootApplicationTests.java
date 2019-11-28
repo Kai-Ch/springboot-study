@@ -1,4 +1,4 @@
-package com.kai.stu;
+package com.chk.stu;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;

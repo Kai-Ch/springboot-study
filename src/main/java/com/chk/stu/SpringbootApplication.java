@@ -1,4 +1,4 @@
-package com.kai.stu;
+package com.chk.stu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
