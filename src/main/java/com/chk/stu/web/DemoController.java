@@ -2,6 +2,7 @@ package com.chk.stu.web;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -9,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @description:
  * @Date:2019/11/26 22:52
  */
-@RestController("/demo")
+@RequestMapping(value = "/demo")
+@RestController
 public class DemoController {
 
     @GetMapping("/hello/{msg}")
